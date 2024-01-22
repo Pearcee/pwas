@@ -17,7 +17,7 @@
 //   }
 
 
-console.log("Its me")
+
 
 // Used to toggle the menu on small screens when clicking on the menu button
 // function menuFn() {
@@ -29,11 +29,13 @@ console.log("Its me")
 //   }
 // }
 
-closeSidebar();
-function openSidebar() {
-  document.getElementById("mySidebar").style.display = "block";
-}
+// closeSidebar();
+// function openSidebar() {
+//   document.getElementById("mySidebar").style.display = "block";
+// }
 
-function closeSidebar() {
-  document.getElementById("mySidebar").style.display = "none";
-}
+// function closeSidebar() {
+//   document.getElementById("mySidebar").style.display = "none";
+// }
+
+console.log("Its me")
