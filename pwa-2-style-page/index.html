@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Landing Page">
+    <link rel="stylesheet" href="src/css/mystyles.min.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Milage Logger</h1>
+    <div class="container">
+        <form id="new-logs">
+            <fieldset>
+
+                <legend>Enter your log details</legend>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="log-date">Date</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="datetime-local" id="log-date" name="log-date" placeholder="log-date"
+                            min="2017-06-01T08:30" max="2117-06-30T16:30">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="log-location">Location</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="log-location" name="log-location">
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="log-milage">Milage</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="number" id="log-milage" name="log-milage" placeholder="log-milage">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="log-range">Range</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="number" id="log-range" name="log-range" placeholder="log-range">
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <!-- <form id="new-logs">
+            <fieldset>
+                <legend>Enter your log details</legend>
+                <p>
+                    <label for="log-location">Location</label size="150">
+                    <input type="text" id="log-location" value="Holm" />
+                </p>
+                <p>
+                    <label for="log-date" size="150">Date</label>
+                    <input type="datetime-local" id="log-date" required value="2024-01-20T15:01" />
+                </p>
+                <p>
+                    <label for="log-milage">Milage</label>
+                    <input type="number" id="log-milage" value="10000" />
+                </p>
+                <p>
+                    <label for="log-range">Battery</label>
+                    <input type="number" id="log-range" min="0" max="100" step="5" value="50" />
+                </p>
+            </fieldset>
+            <p>
+                <button type="submit">Start</button>
+            </p>
+        </form> -->
+
+    <section id="past-logs"></section>
+    <script src="src/js/scripts.js"></script>
+</body>
+
+</html>
