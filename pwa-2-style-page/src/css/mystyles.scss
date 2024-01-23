@@ -15,7 +15,7 @@ body {
   box-sizing: border-box;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
 }
 
@@ -88,13 +88,14 @@ input[type=submit]:hover {
 
 .col-25 {
   float: left;
-  width: 50%;
+  width: 60%;
   margin-top: 6px;
+    padding: 10px 0;
 }
 
 .col-75 {
   float: left;
-  width: 50%;
+  width: 40%;
   margin-top: 6px;
 }
 
