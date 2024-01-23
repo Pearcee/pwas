@@ -81,7 +81,7 @@ function renderPastLogs() {
 
     pastLogsContainer.appendChild(pastLogsHeader);
     pastLogsContainer.appendChild(pastLogsList);
-    setTime()
+    setTime();
 }
 
 // 5. format dates for display
