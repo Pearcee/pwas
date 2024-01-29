@@ -1,0 +1,4 @@
+ID=108
+qm importdisk "$ID" DietPi_Proxmox-x86_64-Bookworm.qcow2 local-lvm
+qm set "$ID" --scsi0 "local-lvm:vm-$ID-disk-0"
+qm set "$ID" --boot order=scsi0
